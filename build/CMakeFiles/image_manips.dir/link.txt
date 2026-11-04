@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libimage_manips.dylib -install_name @rpath/libimage_manips.dylib CMakeFiles/image_manips.dir/libs/image_manips.cpp.o
